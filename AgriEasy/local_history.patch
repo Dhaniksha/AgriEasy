@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/example/agrieasy/LoginPage.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/agrieasy/LoginPage.kt b/app/src/main/java/com/example/agrieasy/LoginPage.kt
+--- a/app/src/main/java/com/example/agrieasy/LoginPage.kt	
++++ b/app/src/main/java/com/example/agrieasy/LoginPage.kt	(date 1677423451400)
+@@ -27,7 +27,7 @@
+         Image(
+             painter = painterResource(id = R.drawable.loginpage),
+             contentDescription = null,
+-            modifier= Modifier.fillMaxSize(100f),
++            modifier= Modifier.fillMaxSize(),
+             Alignment.TopStart)
+ 
+         /*Text("Login Page",
